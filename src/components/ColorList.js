@@ -10,7 +10,7 @@ function ColorList() {
   ];
 
   const myColors = colors.map(colorObj=>{
-   return <li key={colorObj} style={{colorObj}}>{colorObj}</li>
+   return <li key={colorObj} style={{color:colorObj}}>{colorObj}</li>
   })
 
 
